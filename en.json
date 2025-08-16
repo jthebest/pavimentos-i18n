@@ -1,0 +1,60 @@
+{
+  "NAV_HEADER": {
+    "INICIO": "Home",
+    "SERVICIOS": "Services",
+    "NOSOTROS": "About Us",
+    "CLIENTES": "Clients",
+    "CONTACTANOS": "Contact Us"
+  },
+  "CAROUSEL": {
+    "URBANIZACIONES": {
+      "TITLE": "Urban Developments",
+      "DESCRIPTION": "Paving in residential complexes."
+    },
+    "SEALCOATING": {
+      "TITLE": "SEALCOATING",
+      "DESCRIPTION": "Conservation and beautification of old pavements."
+    },
+    "CONSTRUCCION": {
+      "TITLE": "Construction",
+      "DESCRIPTION": "Placement of asphalt mixes for vertical and horizontal roads."
+    },
+    "SELLADO": {
+      "TITLE": "Sealing",
+      "DESCRIPTION": "Construction of roads, bike paths, parking lots, sports courts."
+    },
+    "MANTENIMIENTO": {
+      "TITLE": "Maintenance",
+      "DESCRIPTION": "Pothole patching, leveling, and road rehabilitation."
+    },
+    "PREVIOUS": "Previous",
+    "NEXT": "Next"
+  },
+  "FOOTER": {
+    "ABOUT": "Specialists in roads and transportation, experts in project management with over 15 years in the pavement field",
+    "EMAIL": "Email: pavimentosyvias.medellin@gmail.com",
+    "PHONE": "Phone: +57 318 712 41 70",
+    "LOCATION": "Medellín, Colombia",
+    "INSTAGRAM": "Instagram",
+    "WHATSAPP": "WhatsApp"
+  },
+  "CLIENT": {
+    "TITLE": "Clients",
+    "ESTYMA": {
+      "NAME": "Estyma",
+      "QUOTE": "Environmentally friendly, strictly complying with technical specifications."
+    },
+    "TICSA": {
+      "NAME": "Ticsa Grupo EPM",
+      "QUOTE": "They meet the needs throughout the Metropolitan Area of Medellín."
+    },
+    "SANIGNACIO": {
+      "NAME": "Colegio San Ignacio",
+      "QUOTE": "Excellent, very professional service."
+    }
+  },
+  "FEATURE": {
+    "TITLE": "Features",
+    "DESCRIPTION": "The best solutions for pavements and roads."
+  }
+}
