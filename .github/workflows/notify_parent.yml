@@ -12,5 +12,5 @@ jobs:
           curl -X POST \
           -H "Authorization: token ${{ secrets.PAT }}" \
           -H "Accept: application/vnd.github.everest-preview+json" \
-          --data '{"event_type": "submodule_updated"}' \
+          --data '{"event_type": "submodule_updated workflow automated yml notify_parent"}' \
           https://api.github.com/repos/jthebest/pavimentos/dispatches
