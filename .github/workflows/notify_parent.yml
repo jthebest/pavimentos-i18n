@@ -1,17 +1,24 @@
 name: Notify Parent Repository
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Parent Repository Update
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Trigger parent update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}  # Changed to PAT
+          token: ${{ secrets.PAT }}
           repository: jthebest/pavimentos
           event-type: submodule-updated
           client-payload: |
@@ -19,6 +26,14 @@ jobs:
               "submodule": "pavimentos-i18n",
               "ref": "${{ github.ref }}",
               "sha": "${{ github.sha }}",
-              "message": "${{ github.event.head_commit.message }}",
-              "timestamp": "${{ github.event.head_commit.timestamp }}"
+              "message": "${{ toJSON(github.event.head_commit.message) }}",
+              "author": "${{ github.event.head_commit.author.name }}",
+              "timestamp": "${{ github.event.head_commit.timestamp }}",
+              "run_id": "${{ github.run_id }}"
             }
+
+      - name: Verify dispatch
+        run: |
+          echo "Triggered update for parent repository"
+          echo "Commit SHA: ${{ github.sha }}"
+          echo "Run ID: ${{ github.run_id }}"
