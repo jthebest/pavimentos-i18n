@@ -1,16 +1,24 @@
 name: Notify Parent Repository
-
 on:
   push:
-    branches: [master]
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          curl -X POST \
-          -H "Authorization: token ${{ secrets.PAT }}" \
-          -H "Accept: application/vnd.github.everest-preview+json" \
-          --data '{"event_type": "submodule_updated"}' \
-          https://api.github.com/repos/jthebest/pavimentos/dispatches
+      - name: Trigger Parent Repository Update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}  # Changed to PAT
+          repository: jthebest/pavimentos
+          event-type: submodule-updated
+          client-payload: |
+            {
+              "submodule": "pavimentos-i18n",
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}",
+              "message": "${{ github.event.head_commit.message }}",
+              "timestamp": "${{ github.event.head_commit.timestamp }}"
+            }
