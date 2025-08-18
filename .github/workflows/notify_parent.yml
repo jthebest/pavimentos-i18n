@@ -2,15 +2,23 @@ name: Notify Parent Repository
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Parent Repository Update
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          token: ${{ secrets.REPO_PAT }}  # Changed to PAT
           repository: jthebest/pavimentos
           event-type: submodule-updated
-          client-payload: '{"submodule": "pavimentos-i18n", "ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+          client-payload: |
+            {
+              "submodule": "pavimentos-i18n",
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}",
+              "message": "${{ github.event.head_commit.message }}",
+              "timestamp": "${{ github.event.head_commit.timestamp }}"
+            }
