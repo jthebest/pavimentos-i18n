@@ -11,7 +11,7 @@ jobs:
       - name: Trigger Parent Repository Update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_PAT }}  # Changed to PAT
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}  # Changed to PAT
           repository: jthebest/pavimentos
           event-type: submodule-updated
           client-payload: |
