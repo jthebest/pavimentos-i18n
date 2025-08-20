@@ -1,4 +1,4 @@
-name: Notify Parent Repository
+name: Notify Parent Repository pavimentos-i18n
 on:
   push:
     branches: [ master ]
@@ -8,7 +8,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Parent Repository Update
+      - name: Trigger Parent Repository pavimentos-i18n Update
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}  # Changed to PAT
