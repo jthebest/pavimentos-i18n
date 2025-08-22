@@ -64,6 +64,11 @@
       "TITLE": "Colegio San Ignacio",
       "DESCRIPTION": "Excelente servicio muy profesional.",
       "IMAGE": "colegiosanignacio.png"
+    },
+    "SEACOLTING": {
+      "TITLE": "CUALQUIERCOSA",
+      "DESCRIPTION": "ESTA ES LA DESCTION",
+      "IMAGE": "slider-fullscreen-slide-3.jpg"
     }
   },
   "FEATURE": {
