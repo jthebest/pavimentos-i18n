@@ -1,109 +1,109 @@
-{
+dame en ingles el siguiente es.json para i18n en angular : '''{
   "NAV_HEADER": {
-    "INICIO": "Home",
-    "SERVICIOS": "Services",
-    "NOSOTROS": "About Us",
-    "CLIENTES": "Clients",
-    "CONTACTANOS": "Contact Us"
+    "INICIO": "Inicio",
+    "SERVICIOS": "Servicios",
+    "NOSOTROS": "Nosotros",
+    "CLIENTES": "Clientes",
+    "CONTACTANOS": "Contáctanos"
   },
   "CAROUSEL": {
     "URBANIZACIONES": {
-      "TITLE": "Urbanizations",
-      "DESCRIPTION": "Pavement in residential complexes.",
+      "TITLE": "Urbanizaciones",
+      "DESCRIPTION": "Pavimentación en conjuntos residenciales.",
       "IMAGE": "slider-fullscreen-slide-2.jpg"
     },
     "SEALCOATING": {
       "TITLE": "SEALCOATING",
-      "DESCRIPTION": "Conservation and beautification of old pavements.",
+      "DESCRIPTION": "Conservación y embellecimiento de pavimentos viejos.",
       "IMAGE": "slider-fullscreen-slide-3.jpg"
     },
     "CONSTRUCCION": {
-      "TITLE": "Construction",
-      "DESCRIPTION": "Placement of Asphalt Mixtures for vertical and horizontal roads.",
+      "TITLE": "Construcción",
+      "DESCRIPTION": "Colocación de Mezclas Asfálticas de vías en Vertical y Horizontal.",
       "IMAGE": "slider-fullscreen-slide-4.jpg"
     },
     "SELLADO": {
-      "TITLE": "Sealing",
-      "DESCRIPTION": "Construction of roads, bike paths, parking lots, sports fields.",
+      "TITLE": "Sellado",
+      "DESCRIPTION": "Construcción de vías, ciclo rutas, parqueaderos, canchas deportivas.",
       "IMAGE": "slider-fullscreen-slide-6.jpg"
     },
     "MANTENIMIENTO": {
-      "TITLE": "Maintenance",
-      "DESCRIPTION": "Pothole patching, leveling and road rehabilitation.",
+      "TITLE": "Mantenimiento",
+      "DESCRIPTION": "Parcheos de Huecos, nivelaciones y rehabilitación de vías.",
       "IMAGE": "slider-fullscreen-slide-5.jpg"
     },
-    "PREVIOUS": "Previous",
-    "NEXT": "Next"
+    "PREVIOUS": "Anterior",
+    "NEXT": "Siguiente"
   },
   "FOOTER": {
-    "ABOUT": "Specialists in roads and transport and experts in Project Management with over 15 years in the field of pavements",
-    "EMAIL": "Email: pavimentosyvias.medellin@gmail.com",
+    "ABOUT": "Especialistas en vías y Transportes y expertos en Gerencias de Proyectos con más de 15 años en la rama de pavimentos",
+    "EMAIL": "Correo electrónico: pavimentosyvias.medellin@gmail.com",
     "EMAIL_TEXT": "pavimentosyvias.medellin@gmail.com",
-    "PHONE": "Phone: +57 318 712 41 70",
+    "PHONE": "Teléfono: +57 318 712 41 70",
     "PHONE_TEXT": "+57 318 712 41 70",
     "LOCATION": "Medellín, Colombia",
     "INSTAGRAM": "Instagram",
     "WHATSAPP": "WhatsApp",
-    "SEND_EMAIL": "Send email",
-    "CALL": "Call",
+    "SEND_EMAIL": "Enviar correo",
+    "CALL": "Llamar",
     "LOGO_ALT": "Logo Pavimentos y Vías Medellín",
     "MAILTO": "mailto:pavimentosyvias.medellin@gmail.com"
   },
   "CLIENT": {
     "ESTYMA": {
       "TITLE": "Estyma",
-      "DESCRIPTION": "Environmentally friendly, in strict compliance with technical specifications.",
+      "DESCRIPTION": "Amigable con el ambiente, en estricto cumplimiento de las especificaciones técnicas.",
       "IMAGE": "estyma.png"
     },
     "TICSA": {
       "TITLE": "Ticsa Grupo EPM",
-      "DESCRIPTION": "They address the needs well throughout the Metropolitan Area of Medellín.",
+      "DESCRIPTION": "Atienden bien las necesidades en toda el Area Metropolitana de Medellín.",
       "IMAGE": "ticsa.png"
     },
     "SANIGNACIO": {
-      "TITLE": "San Ignacio School",
-      "DESCRIPTION": "Excellent and very professional service.",
+      "TITLE": "Colegio San Ignacio",
+      "DESCRIPTION": "Excelente servicio muy profesional.",
       "IMAGE": "colegiosanignacio.png"
     }
   },
   "FEATURE": {
-    "TITLE": "Features",
-    "DESCRIPTION": "The best solutions for pavements and roads.",
+    "TITLE": "Características",
+    "DESCRIPTION": "Las mejores soluciones para pavimentos y vías.",
     "HISTORIA": {
-      "TITLE": "HISTORY",
+      "TITLE": "HISTORIA",
       "COMPANY_NAME": "PAVIMENTOS Y VIAS MEDELLÍN S.A.S.",
-      "DESCRIPTION": "led by Eng. Edwin Arrubla Jaramillo. Specialist in Roads and Transport and Specialist in Project Management, with more than 15 years of experience solely in the field of pavements in the department of Antioquia."
+      "DESCRIPTION": "liderada por el Ing. Edwin Arrubla Jaramillo. Especialista en vías y Transportes y Especialista en Gerencia de Proyectos, con mas de 15 años de experiencia solo en la rama de pavimentos en el departamento de Antioquia."
     },
     "VISION": {
-      "TITLE": "VISION",
+      "TITLE": "VISIÓN",
       "COMPANY_NAME": "PAVIMENTOS Y VIAS MEDELLÍN S.A.S.",
-      "DESCRIPTION_PART1": "By 2030,",
-      "DESCRIPTION_PART2": "it will be a solid company to serve clients in the city of Medellín, the Metropolitan Area, the nearby East, and the Department of Antioquia, with an emphasis on the private sector such as horizontal property, as a company dedicated to road construction, Supply and Placement of Asphalt Mixtures."
+      "DESCRIPTION_PART1": "Para 2030,",
+      "DESCRIPTION_PART2": "será una empresa solida para atender a los clientes de la ciudad de Medellín, Área Metropolitana, Oriente cercano y el Departamento de Antioquia, con énfasis en el sector privado como es la propiedad horizontal, como una empresa dedicada a la construcción de vías, Suministro y Colocación de Mezclas Asfálticas."
     },
     "VALORES": {
-      "TITLE": "VALUES",
-      "HONESTIDAD": "Honesty.",
-      "RESPETO_EMPATIA": "Respect and Empathy",
-      "SERVICIO_CLIENTE": "Customer Service.",
-      "COMPROMISO_CUMPLIMIENTO": "Commitment and Compliance."
+      "TITLE": "VALORES",
+      "HONESTIDAD": "Honestidad.",
+      "RESPETO_EMPATIA": "Respeto y Empatía",
+      "SERVICIO_CLIENTE": "Servicio al Cliente.",
+      "COMPROMISO_CUMPLIMIENTO": "Compromiso y Cumplimiento."
     }
   },
   "PRODUCT": {
     "TIPO_VIAS": {
-      "TITLE": "All types of roads",
-      "DESCRIPTION": "Urbanizations, Parcelations, Residential Complexes, Bike Paths, Sports Fields, Parking Lots, Plazas, Pedestrian Walkways, Hangars and Landing Strips."
+      "TITLE": "Todo tipo de vías",
+      "DESCRIPTION": "Urbanizaciones, Parcelaciones, Conjuntos Residenciales, Ciclorutas, Canchas Deportivas, Parqueaderos, Plazoletas, Senderos Peatonales, Hangares y Pistas De Aterrizaje."
     },
     "GESTION_CONSTRUCCION": {
-      "TITLE": "Management and Construction",
-      "DESCRIPTION": "Civil Works, Mixtures, Patching, Potholes, and Leveling, Crack Sealing, Vertical and Horizontal Signage, Rejuvenation, conservation, protection and beautification of old pavements through asphalt seal type SEALCOATING."
+      "TITLE": "Gestión y Construcción",
+      "DESCRIPTION": "Obras Civiles, Mezclas, Parcheos, Huecos, Baches y Nivelaciones, Sellado de Grietas, Señalización Vertical y Horizontal, Rejuvenecimiento, conservación, protección y embellecimiento de pavimentos viejos mediante sello asfáltico tipo SEALCOATING."
     },
     "SUMINISTRO_MANTENIMIENTO": {
-      "TITLE": "Supply and Maintenance",
-      "DESCRIPTION": "Application of all types of hot or cold Asphalt Mixtures, Maintenance and Rehabilitation of Pavements."
+      "TITLE": "Suministro y Mantenimiento",
+      "DESCRIPTION": "Aplicación de todo tipo de Mezclas Asfálticas en caliente o en frío, Mantenimiento y Rehabilitación de Pavimentos."
     }
   },
   "GENERAL": {
-    "CLIENTE": "Clients",
-    "LOADING": "Loading..."
+    "CLIENTES": "Clientes",
+    "LOADING": "Cargando..."
   }
 }
