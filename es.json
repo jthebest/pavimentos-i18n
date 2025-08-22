@@ -11,7 +11,6 @@
       "TITLE": "Urbanizaciones",
       "DESCRIPTION": "Pavimentación en conjuntos residenciales.",
       "IMAGE": "slider-fullscreen-slide-2.jpg"
-      
     },
     "SEALCOATING": {
       "TITLE": "SEALCOATING",
@@ -39,10 +38,16 @@
   "FOOTER": {
     "ABOUT": "Especialistas en vías y Transportes y expertos en Gerencias de Proyectos con más de 15 años en la rama de pavimentos",
     "EMAIL": "Correo electrónico: pavimentosyvias.medellin@gmail.com",
+    "EMAIL_TEXT": "pavimentosyvias.medellin@gmail.com",
     "PHONE": "Teléfono: +57 318 712 41 70",
+    "PHONE_TEXT": "+57 318 712 41 70",
     "LOCATION": "Medellín, Colombia",
     "INSTAGRAM": "Instagram",
-    "WHATSAPP": "WhatsApp"
+    "WHATSAPP": "WhatsApp",
+    "SEND_EMAIL": "Enviar correo",
+    "CALL": "Llamar",
+    "LOGO_ALT": "Logo Pavimentos y Vías Medellín",
+    "MAILTO": "mailto:pavimentosyvias.medellin@gmail.com"
   },
   "CLIENT": {
     "TITLE": "Clientes",
@@ -61,6 +66,38 @@
   },
   "FEATURE": {
     "TITLE": "Características",
-    "DESCRIPTION": "Las mejores soluciones para pavimentos y  vías."
+    "DESCRIPTION": "Las mejores soluciones para pavimentos y vías.",
+    "HISTORIA": {
+      "TITLE": "HISTORIA",
+      "COMPANY_NAME": "PAVIMENTOS Y VIAS MEDELLÍN S.A.S.",
+      "DESCRIPTION": "liderada por el Ing. Edwin Arrubla Jaramillo. Especialista en vías y Transportes y Especialista en Gerencia de Proyectos, con mas de 15 años de experiencia solo en la rama de pavimentos en el departamento de Antioquia."
+    },
+    "VISION": {
+      "TITLE": "VISIÓN",
+      "COMPANY_NAME": "PAVIMENTOS Y VIAS MEDELLÍN S.A.S.",
+      "DESCRIPTION_PART1": "Para 2030,",
+      "DESCRIPTION_PART2": "será una empresa solida para atender a los clientes de la ciudad de Medellín, Área Metropolitana, Oriente cercano y el Departamento de Antioquia, con énfasis en el sector privado como es la propiedad horizontal, como una empresa dedicada a la construcción de vías, Suministro y Colocación de Mezclas Asfálticas."
+    },
+    "VALORES": {
+      "TITLE": "VALORES",
+      "HONESTIDAD": "Honestidad.",
+      "RESPETO_EMPATIA": "Respeto y Empatía",
+      "SERVICIO_CLIENTE": "Servicio al Cliente.",
+      "COMPROMISO_CUMPLIMIENTO": "Compromiso y Cumplimiento."
+    }
+  },
+  "PRODUCT": {
+    "TIPO_VIAS": {
+      "TITLE": "Todo tipo de vías",
+      "DESCRIPTION": "Urbanizaciones, Parcelaciones, Conjuntos Residenciales, Ciclorutas, Canchas Deportivas, Parqueaderos, Plazoletas, Senderos Peatonales, Hangares y Pistas De Aterrizaje."
+    },
+    "GESTION_CONSTRUCCION": {
+      "TITLE": "Gestión y Construcción",
+      "DESCRIPTION": "Obras Civiles, Mezclas, Parcheos, Huecos, Baches y Nivelaciones, Sellado de Grietas, Señalización Vertical y Horizontal, Rejuvenecimiento, conservación, protección y embellecimiento de pavimentos viejos mediante sello asfáltico tipo SEALCOATING."
+    },
+    "SUMINISTRO_MANTENIMIENTO": {
+      "TITLE": "Suministro y Mantenimiento",
+      "DESCRIPTION": "Aplicación de todo tipo de Mezclas Asfálticas en caliente o en frío, Mantenimiento y Rehabilitación de Pavimentos."
+    }
   }
 }
