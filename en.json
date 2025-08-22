@@ -9,7 +9,7 @@
   "CAROUSEL": {
     "URBANIZACIONES": {
       "TITLE": "Urbanizations",
-      "DESCRIPTION": "Paving in residential complexes.",
+      "DESCRIPTION": "Pavement in residential complexes.",
       "IMAGE": "slider-fullscreen-slide-2.jpg"
     },
     "SEALCOATING": {
@@ -36,7 +36,7 @@
     "NEXT": "Next"
   },
   "FOOTER": {
-    "ABOUT": "Specialists in roads and transportation and experts in Project Management with more than 15 years in the pavement field",
+    "ABOUT": "Specialists in roads and transport and experts in Project Management with over 15 years in the field of pavements",
     "EMAIL": "Email: pavimentosyvias.medellin@gmail.com",
     "EMAIL_TEXT": "pavimentosyvias.medellin@gmail.com",
     "PHONE": "Phone: +57 318 712 41 70",
@@ -50,18 +50,20 @@
     "MAILTO": "mailto:pavimentosyvias.medellin@gmail.com"
   },
   "CLIENT": {
-    "TITLE": "Clients",
     "ESTYMA": {
-      "NAME": "Estyma",
-      "QUOTE": "Environmentally friendly, in strict compliance with technical specifications."
+      "TITLE": "Estyma",
+      "DESCRIPTION": "Environmentally friendly, in strict compliance with technical specifications.",
+      "IMAGE": "estyma.png"
     },
     "TICSA": {
-      "NAME": "Ticsa Grupo EPM",
-      "QUOTE": "They attend well to the needs throughout the Metropolitan Area of Medellín."
+      "TITLE": "Ticsa Grupo EPM",
+      "DESCRIPTION": "They address the needs well throughout the Metropolitan Area of Medellín.",
+      "IMAGE": "ticsa.png"
     },
     "SANIGNACIO": {
-      "NAME": "San Ignacio School",
-      "QUOTE": "Excellent service, very professional."
+      "TITLE": "San Ignacio School",
+      "DESCRIPTION": "Excellent and very professional service.",
+      "IMAGE": "colegiosanignacio.png"
     }
   },
   "FEATURE": {
@@ -70,13 +72,13 @@
     "HISTORIA": {
       "TITLE": "HISTORY",
       "COMPANY_NAME": "PAVIMENTOS Y VIAS MEDELLÍN S.A.S.",
-      "DESCRIPTION": "led by Eng. Edwin Arrubla Jaramillo. Specialist in roads and transportation and Specialist in Project Management, with more than 15 years of experience only in the pavement field in the department of Antioquia."
+      "DESCRIPTION": "led by Eng. Edwin Arrubla Jaramillo. Specialist in Roads and Transport and Specialist in Project Management, with more than 15 years of experience solely in the field of pavements in the department of Antioquia."
     },
     "VISION": {
       "TITLE": "VISION",
       "COMPANY_NAME": "PAVIMENTOS Y VIAS MEDELLÍN S.A.S.",
       "DESCRIPTION_PART1": "By 2030,",
-      "DESCRIPTION_PART2": "will be a solid company to serve clients in the city of Medellín, Metropolitan Area, nearby East and the Department of Antioquia, with emphasis on the private sector such as horizontal property, as a company dedicated to road construction, Supply and Placement of Asphalt Mixtures."
+      "DESCRIPTION_PART2": "it will be a solid company to serve clients in the city of Medellín, the Metropolitan Area, the nearby East, and the Department of Antioquia, with an emphasis on the private sector such as horizontal property, as a company dedicated to road construction, Supply and Placement of Asphalt Mixtures."
     },
     "VALORES": {
       "TITLE": "VALUES",
@@ -89,15 +91,19 @@
   "PRODUCT": {
     "TIPO_VIAS": {
       "TITLE": "All types of roads",
-      "DESCRIPTION": "Urbanizations, Parcelations, Residential Complexes, Bike Paths, Sports Fields, Parking Lots, Plazas, Pedestrian Paths, Hangars and Landing Strips."
+      "DESCRIPTION": "Urbanizations, Parcelations, Residential Complexes, Bike Paths, Sports Fields, Parking Lots, Plazas, Pedestrian Walkways, Hangars and Landing Strips."
     },
     "GESTION_CONSTRUCCION": {
       "TITLE": "Management and Construction",
-      "DESCRIPTION": "Civil Works, Mixtures, Patches, Potholes, Bumps and Leveling, Crack Sealing, Vertical and Horizontal Signage, Rejuvenation, conservation, protection and beautification of old pavements through SEALCOATING type asphalt seal."
+      "DESCRIPTION": "Civil Works, Mixtures, Patching, Potholes, and Leveling, Crack Sealing, Vertical and Horizontal Signage, Rejuvenation, conservation, protection and beautification of old pavements through asphalt seal type SEALCOATING."
     },
     "SUMINISTRO_MANTENIMIENTO": {
       "TITLE": "Supply and Maintenance",
-      "DESCRIPTION": "Application of all types of Hot or Cold Asphalt Mixtures, Maintenance and Rehabilitation of Pavements."
+      "DESCRIPTION": "Application of all types of hot or cold Asphalt Mixtures, Maintenance and Rehabilitation of Pavements."
     }
+  },
+  "GENERAL": {
+    "CLIENTE": "Clients",
+    "LOADING": "Loading..."
   }
 }

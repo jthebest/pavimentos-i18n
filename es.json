@@ -50,18 +50,20 @@
     "MAILTO": "mailto:pavimentosyvias.medellin@gmail.com"
   },
   "CLIENT": {
-    "TITLE": "Clientes",
     "ESTYMA": {
-      "NAME": "Estyma",
-      "QUOTE": "Amigable con el ambiente, en estricto cumplimiento de las especificaciones técnicas."
+      "TITLE": "Estyma",
+      "DESCRIPTION": "Amigable con el ambiente, en estricto cumplimiento de las especificaciones técnicas.",
+      "IMAGE": "estyma.png"
     },
     "TICSA": {
-      "NAME": "Ticsa Grupo EPM",
-      "QUOTE": "Atienden bien las necesidades en toda el Area Metropolitana de Medellín."
+      "TITLE": "Ticsa Grupo EPM",
+      "DESCRIPTION": "Atienden bien las necesidades en toda el Area Metropolitana de Medellín.",
+      "IMAGE": "ticsa.png"
     },
     "SANIGNACIO": {
-      "NAME": "Colegio San Ignacio",
-      "QUOTE": "Excelente servicio muy profesional."
+      "TITLE": "Colegio San Ignacio",
+      "DESCRIPTION": "Excelente servicio muy profesional.",
+      "IMAGE": "colegiosanignacio.png"
     }
   },
   "FEATURE": {
@@ -99,5 +101,9 @@
       "TITLE": "Suministro y Mantenimiento",
       "DESCRIPTION": "Aplicación de todo tipo de Mezclas Asfálticas en caliente o en frío, Mantenimiento y Rehabilitación de Pavimentos."
     }
+  },
+  "GENERAL": {
+    "CLIENTE": "Clientes",
+    "LOADING": "Cargando..."
   }
 }
