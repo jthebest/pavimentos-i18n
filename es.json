@@ -27,11 +27,6 @@
       "DESCRIPTION": "Parcheos de Huecos, nivelaciones y rehabilitación de vías.",
       "IMAGE": "slider-fullscreen-slide-5.jpg"
     },
-    "ASFALTO": {
-      "TITLE": "RELLENO",
-      "DESCRIPTION": "Los mejores productos del mercado",
-      "IMAGE": "slider-fullscreen-slide-3.jpg"
-    },
     "PREVIOUS": "Anterior",
     "NEXT": "Siguiente"
   },
@@ -61,11 +56,6 @@
       "IMAGE": "ticsa.png"
     },
     "SANIGNACIO": {
-      "TITLE": "Colegio San Ignacio",
-      "DESCRIPTION": "Excelente servicio muy profesional.",
-      "IMAGE": "colegiosanignacio.png"
-    },
-    "NUEVOCLIENTE": {
       "TITLE": "Colegio San Ignacio",
       "DESCRIPTION": "Excelente servicio muy profesional.",
       "IMAGE": "colegiosanignacio.png"
