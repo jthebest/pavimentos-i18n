@@ -27,6 +27,11 @@
       "DESCRIPTION": "Parcheos de Huecos, nivelaciones y rehabilitación de vías.",
       "IMAGE": "slider-fullscreen-slide-5.jpg"
     },
+    "ASFALTO": {
+      "TITLE": "RELLENO",
+      "DESCRIPTION": "Las mejores tecnicos para llenar asfalto",
+      "IMAGE": "slider-fullscreen-slide-3.jpg"
+    },
     "PREVIOUS": "Anterior",
     "NEXT": "Siguiente"
   },
@@ -59,6 +64,11 @@
       "TITLE": "Colegio San Ignacio",
       "DESCRIPTION": "Excelente servicio muy profesional.",
       "IMAGE": "colegiosanignacio.png"
+    },
+    "PAVIMENTOSYMEDELLIN": {
+      "TITLE": "Pavimentos medellin",
+      "DESCRIPTION": "no se va a visualizar",
+      "IMAGE": "logo-full.png"
     }
   },
   "FEATURE": {
